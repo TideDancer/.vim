@@ -1,0 +1,3 @@
+steps:
+	clone to home
+	copy .vim/.vimrc out
