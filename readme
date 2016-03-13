@@ -1,0 +1,4 @@
+steps:
+	clone to home
+	copy .vim/.vimrc out
+	sudo apt-get install exuberant-ctags
