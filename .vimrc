@@ -4,7 +4,7 @@ color desert
 set hlsearch
 set incsearch
 
-set cindent
+"set cindent
 let st_Show_One_File=1
 let Tlist_Exit_OnlyWindow=1
 
