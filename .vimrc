@@ -13,7 +13,8 @@ nmap wm :WMToggle<cr>
 
 set nocompatible
 set tabstop=2
-set nowrap
+set wrap
+set ruler
 
 execute pathogen#infect()
 filetype on
