@@ -8,12 +8,16 @@ set incsearch
 let st_Show_One_File=1
 let Tlist_Exit_OnlyWindow=1
 
+set tags=tags
+set tags+=./tags
+
 let g:winManagerWindowLayout='FileExplorer|TagList'
 nmap wm :WMToggle<cr>
 
 set nocompatible
 set tabstop=2
-set nowrap
+set wrap
+set ruler
 
 execute pathogen#infect()
 filetype on
