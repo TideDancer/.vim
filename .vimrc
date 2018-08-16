@@ -18,6 +18,7 @@ set nocompatible
 set tabstop=2
 set wrap
 set ruler
+set foldmethod=indent
 
 execute pathogen#infect()
 filetype on
